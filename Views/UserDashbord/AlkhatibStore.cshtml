@@ -1,0 +1,81 @@
+﻿@model IEnumerable<TUITY_STORE.Models.StoresPrductTable>
+@{
+    Layout = "_UserDashbord";
+}
+<link href="~/css/Adidas.css" rel="stylesheet" />
+
+<div class="row">
+    @foreach (var item in Model)
+    {
+        <div class="container col-md-3 offset-md-1">
+
+            <div class="card">
+                <style>
+                    .container .card:after {
+                        content: "@item.store.StoreName";
+                        position: absolute;
+                        top: 30%;
+                        left: -10%;
+                        font-size: 12em;
+                        font-weight: 600;
+                        font-style: italic;
+                        color: rgba(255, 255, 255, 0.04);
+                    }
+                </style>
+
+                <div class="imgBx">
+                    <img src=@Url.Content("~/Image/" + item.productt.Imagepath) alt="Alterenate Text" width="100" height="100" />
+                </div>
+
+                <div class="contentBx">
+
+                    <h2>@item.productt.Namee</h2>
+                    <h2>Sale: @item.productt.Sale</h2>
+                    <h2>Price: @item.productt.Price $</h2>
+
+
+                    <form asp-action="AddToCart">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        @*<div class="form-group">
+                                <label hidden asp-for="UserId" class="control-label"></label>
+                                <select hidden asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+                            </div>*@
+
+                        @*<div class="form-group">
+                                <label hidden asp-for="DATEFROM" class="control-label"></label>
+                                <input hidden asp-for="DATEFROM" class="form-control" />
+                                <span hidden asp-validation-for="DATEFROM" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label hidden asp-for="DATETO" class="control-label"></label>
+                                <input hidden asp-for="DATETO" class="form-control" />
+                                <span hidden asp-validation-for="DATETO" class="text-danger"></span>
+                            </div>*@
+                        <div class="form-group">
+                            <label hidden for="productid"><i class="zmdi zmdi-lock"></i></label>
+                            <input hidden type="text" name="productid" id="productid" value="@item.productt.Id" placeholder="Product ID " style="width:200px; height:30px; font-size:20px;" />
+                        </div>
+                        <div class="form-group">
+                            <label for="quantiti"><i class="zmdi zmdi-lock"></i></label>
+                            <input type="number" name="quantiti" id="quantiti" placeholder="Quantity" style="width:200px; height:30px; font-size:20px;" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Add To Cart" class="btn btn-primary" style="width:60px; height:30px;" />
+                        </div>
+                    </form>
+
+                </div>
+                }
+
+            </div>
+
+            <br />
+
+        </div>
+
+    }
+
+</div>
+<br />
+<br />

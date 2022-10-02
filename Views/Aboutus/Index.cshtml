@@ -1,0 +1,72 @@
+﻿@model IEnumerable<TUITY_STORE.Models.Aboutu>
+
+@{
+    Layout = "_AboutDashbord";
+}
+
+@*<h1>Index</h1>*@
+
+@*<p>
+        <a asp-action="Create">Create New</a>
+    </p>*@
+<table class="table">
+    @*<thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.AboutText)
+                </th>
+                <th></th>
+            </tr>
+        </thead>*@
+    <tbody>
+        <h1 style="text-align:center" class="h1">About Us</h1>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <div class="container row">
+                        <h1 class="col-md-2 offset-md-2">About <span style="color:blue">T</span>UITY</h1>
+                        <h3 class="col-md-8">
+                            @Html.DisplayFor(modelItem => item.AboutText)
+                        </h3>
+                    </div>
+
+                </td>
+                @*<td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+                    </td>*@
+            </tr>
+        }
+
+    </tbody>
+</table>
+<br />
+<br />
+<h1 style="text-align:center">Location</h1>
+<hr />
+
+<br />
+<br />
+<div class="mapouter row" style="margin-left:450px;">
+    <div class="gmap_canvas">
+        <iframe width="636" height="600" id="gmap_canvas" src="https://maps.google.com/maps?q=%D8%B9%D9%86%D8%A8%D9%87&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><br>
+        <style>
+            .mapouter {
+                position: relative;
+                text-align: right;
+                height: 636px;
+                width: 600px;
+            }
+        </style>
+        <style>
+            .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                height: 800px;
+                width: 600px;
+            }
+        </style>
+    </div>
+</div>

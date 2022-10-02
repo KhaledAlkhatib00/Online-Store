@@ -1,0 +1,166 @@
+﻿@model Tuple<IEnumerable<TUITY_STORE.Models.OrderProduct>, IEnumerable<TUITY_STORE.Models.ReportTable>>
+
+@{
+    ViewData["Title"] = "Report";
+    Layout = "_DashbordLayout";
+}
+
+    <h1>Report</h1>
+
+
+    <head>
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <link href="~/Content/bootstrap.css" rel="stylesheet" />
+
+        <link href="https://cdn.datatables.net/1.10.15/css/dataTables.bootstrap.min.css" rel="stylesheet" />
+        <link href="https://cdn.datatables.net/responsive/2.1.1/css/responsive.bootstrap.min.css" rel="stylesheet" />
+
+        <script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+        <script src="https://cdn.datatables.net/1.10.15/js/dataTables.bootstrap4.min.js "></script>
+
+    </head>
+    <body>
+        <div style="margin-left:30px;">
+            <div class="col-lg-12 col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-warning">
+                        <h4 class="card-title">Categories</h4>
+                        <p class="card-category"></p>
+                    </div>
+                    <div class="card-body table-responsive">
+                        <table class="table table-hover" id="example">
+                            <thead class="text-warning">
+                                <tr>
+                                    <th>Username</th>
+                                    <th>Prodcut Name</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total Price </th>
+                                    <th>Category Name</th>
+                                    <th>Image</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                                @foreach (var item in Model.Item2)
+                                {
+                                    <tr>
+                                        <td>@item.userLogin.UserName</td>
+                                        <td>@item.productt.Namee</td>
+                                        <td>@item.productt.Price</td>
+                                        <td>@item.orderProduct.Quantity</td>
+                                        <td> @(item.productt.Price*item.orderProduct.Quantity)</td>
+                                        <td>@item.productCategory.CategoryName</td>
+
+                                        <td>
+                                            <img src=@Url.Content("~/Image/"+item.productt.Imagepath) alt="Alternate Text" width="100" height="100" />
+                                        </td>
+                                    </tr>
+                                }
+                           
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td>
+                                        Total Quantity: @ViewBag.TotalQuantity
+                                    </td>
+                                    <td>
+                                        Total Price : @ViewBag.TotalPrice
+                                    </td>
+                                    <td>Profits : @ViewBag.Profits</td>
+                                    <td>Losses : @ViewBag.losses</td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-6">
+                    <form action="Report" method="post">
+                        <input type="date" name="startDate" value="" placeholder="Start Date" class="form-control" />
+                        <input type="date" name="endDate" value="" placeholder="End Date" class="form-control" />
+                        <button type="submit" class="btn btn-dark"> Search </button>
+                    </form>
+                </div>
+            </div>
+
+            <table class="table" id="example">
+                <thead>
+                    <tr>
+                        <th>Customer Name</th>
+                        <th>Product Name</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Date From</th>
+                        <th>Date To</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model.Item1)
+                    {
+                        <tr>
+                            <td>
+                                @item.Order.User.Fname
+                            </td>
+                            <td>
+                                @item.Product.Namee
+                            </td>
+                            <td>
+                                @item.Product.Price
+                            </td>
+                            <td>
+                                @item.Quantity
+                            </td>
+                            <td>
+                                @item.Order.DATEFROM
+                            </td>
+                            <td>
+                                @item.Order.DATETO
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td>
+                            Total Quantity: @ViewBag.TotalQuantity
+                        </td>
+                        <td>
+                            Total Price : @ViewBag.TotalPrice
+                        </td>
+                        <td>Profits : @ViewBag.Profits</td>
+                        <td>Losses : @ViewBag.losses</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+
+            <script src="https://cdn.datatables.net/1.11.1/js/jquery.dataTables.min.js" defer></script>
+
+            <script src="https://cdn.datatables.net/buttons/2.0.0/js/dataTables.buttons.min.js" defer></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>
+
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>
+            <script src="https://cdn.datatables.net/buttons/2.0.0/js/buttons.html5.min.js" defer></script>
+
+            <script>
+                $(document).ready(function () {
+                    $('#example').DataTable({
+                        dom: 'Bfrtip',
+                        buttons: [
+                            'copyHtml5',
+                            'excelHtml5',
+                            'csvHtml5',
+                            'pdfHtml5'
+
+                        ]
+                    });
+                });</script>
+        </div>
+    </body>

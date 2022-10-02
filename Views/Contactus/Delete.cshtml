@@ -1,0 +1,46 @@
+﻿@model TUITY_STORE.Models.Contactu
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_DashbordLayout";
+}
+<div style="margin-left:50px;">
+    <h1>Delete</h1>
+
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>Contactu</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Locationn)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Locationn)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.PhoneNumber)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.PhoneNumber)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.UserMessege)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.UserMessege)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.EMail)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.EMail)
+            </dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+        </form>
+    </div>
+</div>

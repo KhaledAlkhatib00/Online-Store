@@ -1,0 +1,51 @@
+﻿@model TUITY_STORE.Models.Orderr
+
+@{
+    ViewData["Title"] = "AddToCart";
+    Layout = "_UserDashbord";
+}
+
+<h1>AddToCart</h1>
+
+<h4>Orderr</h4>
+<hr />
+
+
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="AddToCart">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+            <div class="form-group">
+                <label hidden asp-for="UserId" class="control-label"></label>
+                <select hidden asp-for="UserId" class="form-control" asp-items="ViewBag.UserId"></select>
+            </div>
+
+            <div class="form-group">
+                <label hidden asp-for="DATEFROM" class="control-label"></label>
+                <input hidden asp-for="DATEFROM" class="form-control" />
+                <span hidden asp-validation-for="DATEFROM" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label hidden asp-for="DATETO" class="control-label"></label>
+                <input hidden asp-for="DATETO" class="form-control" />
+                <span hidden asp-validation-for="DATETO" class="text-danger"></span>
+            </div>
+            @*<div class="form-group" >
+                    <label for="productid"><i class="zmdi zmdi-lock"></i></label>
+                    <input type="text" name="productid" id="productid" placeholder="Product ID " style="width:200px; height:30px; font-size:20px;"/>
+                </div>*@
+            <div class="form-group">
+                <label for="quantiti"><i class="zmdi zmdi-lock"></i></label>
+                <input type="number" name="quantiti" id="quantiti" placeholder="Quantity" style="width:200px; height:30px; font-size:20px;" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" style="width:60px; height:30px;" />
+            </div>
+        </form>
+    </div>
+</div>
+
+

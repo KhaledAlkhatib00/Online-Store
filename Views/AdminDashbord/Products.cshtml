@@ -1,0 +1,77 @@
+﻿@model IEnumerable<TUITY_STORE.Models.ProductDitaels>
+
+@{
+    ViewData["Title"] = "Products";
+    Layout = "_DashbordLayout";
+}
+
+    <div class="col-lg-10 col-md-10 offset-lg-1">
+        <div class="card">
+            <div class="card-header card-header-tabs card-header-primary">
+                <div class="nav-tabs-navigation">
+                    <div class="nav-tabs-wrapper">
+                        <span class="nav-tabs-title">Products</span>
+                        <button type="button" rel="tooltip" title="add" class="btn">
+                            <a href="/Productts/Create"><i class="material-icons">add</i></a>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="tab-content">
+                    <div class="tab-pane active" id="profile">
+                        <table class="table">
+                            <thead class="text-warning">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>SALE</th>
+                                    <th>PRICE</th>
+                                    <th>CATEGORY NAME</th>
+                                    <th>Store Name</th>
+                                    <th>IMAGE</th>
+
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+
+                                <tr>
+                                    <td>@item.product.Id</td>
+                                    <td>@item.product.Namee</td>
+                                    <td>@item.product.Sale</td>
+                                    <td>@item.product.Price</td>
+                                    <td>@item.productCategory.CategoryName</td>
+                                    <td>@item.storee.StoreName</td>
+
+                                    <td>
+                                        <img src=@Url.Content("~/Image/"+item.product.Imagepath) alt="Alterenate Text" width="100" height="100" />
+                                    </td>
+                                    <td>
+                                        <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                            <a href="/Productts/Edit/@item.product.Id"><i class="material-icons">edit</i></a>
+                                        </button>
+                                    </td>
+                                    <td>
+                                        <div>
+                                            <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                                <a href="/Productts/Delete/@item.product.Id"><i class="material-icons">close</i></a>
+                                            </button>
+                                        </div>
+                                    </td>
+
+
+                                </tr>
+                                }
+
+                            </tbody>
+
+                        </table>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+</div>

@@ -1,0 +1,44 @@
+﻿@model TUITY_STORE.Models.BankAccount
+
+@{
+    ViewData["Title"] = "VerifyBankAccount";
+    Layout = "_CartLayout";
+}
+
+
+
+<body>
+
+    <h1>Verify Bank Account</h1>
+
+
+    <h4>Bank Account</h4>
+    <hr />
+    <div class="row">
+        <div class="col-md-4">
+            <form asp-action="VerifyBankAccount">
+                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                <div class="form-group">
+                    <label asp-for="AccountNumber" class="control-label"></label>
+                    <input asp-for="AccountNumber" class="form-control" />
+                    <span asp-validation-for="AccountNumber" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label asp-for="AccountSnn" class="control-label"></label>
+                    <input asp-for="AccountSnn" class="form-control" />
+                    <span asp-validation-for="AccountSnn" class="text-danger"></span>
+                </div>
+                <div class="form-group">
+                    <label hidden asp-for="CustomerId" class="control-label"></label>
+                    <select hidden asp-for="CustomerId" class="form-control" asp-items="ViewBag.CustomerId"></select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Create" class="btn btn-primary" />
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>

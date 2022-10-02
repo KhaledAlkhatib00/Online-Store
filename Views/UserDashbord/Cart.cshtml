@@ -1,0 +1,60 @@
+﻿@model IEnumerable<TUITY_STORE.Models.UserOrders>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Users";
+    Layout = "_CartLayout";
+}
+
+<div class="container">
+        <table id="cart" class="table table-hover table-condensed">
+            <thead>
+                <tr>
+                    <th style="width:50%">Product</th>
+                    <th style="width:10%">Price</th>
+                    <th style="width:8%">Quantity</th>
+                    <th style="width:22%" class="text-center">Subtotal</th>
+                    <th style="width:10%"></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-2 hidden-xs"><img src=@Url.Content("~/Image/" + item.productt.Imagepath) alt="Alterenate Text" width="100" height="100" /></div>
+                            <div class="col-sm-10">
+                                <h4 class="nomargin">@item.productt.Namee</h4>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">@item.productt.Price</td>
+                    <td data-th="Quantity">
+                        @item.orderProduct.Quantity
+                    </td>
+                    <td data-th="Subtotal" class="text-center">
+                    @(item.orderProduct.Quantity * item.productt.Price)
+                    </td>
+                    <td class="actions" data-th="">
+                        <a  href="/OrderProducts/Delete/@item.orderProduct.Id" > <button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button></a>
+                    </td>
+                </tr>
+                }
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>
+                        Total Quantity: @Model.Sum(x => x.orderProduct.Quantity)
+                    </td>
+                    <td>
+                        Total Price :  @ViewBag.TotalPrice
+                    </td>
+                
+                    <td><a href="/UserDashbord/CheekOut" class="btn btn-success btn-block">Checkout <i class="fa fa-angle-right"></i></a></td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>

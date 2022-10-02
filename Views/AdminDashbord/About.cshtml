@@ -1,0 +1,74 @@
+﻿@model IEnumerable<TUITY_STORE.Models.Aboutu>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_DashbordLayout";
+}
+<div class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <div class="card">
+                    <div class="card-header card-header-tabs card-header-primary">
+                        <div class="nav-tabs-navigation">
+                            <div class="nav-tabs-wrapper">
+                                <span class="nav-tabs-title">Images</span>
+                                <button type="button" rel="tooltip" title="add" class="btn">
+                                    <a href="/Aboutus/Create"><i class="material-icons">add</i></a>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="profile">
+                                <table class="table">
+                                    <thead class="text-warning">
+                                        <tr>
+                                            <th>ID</th>
+                                            <th>Name</th>
+                                           
+
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                            <tr>
+                                                <td>@item.Id</td>
+                                                <td>@item.AboutText</td>
+                                                
+                                                <td>
+                                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                                        <a href="/Aboutus/Edit/@item.Id"><i class="material-icons">edit</i></a>
+                                                    </button>
+                                                </td>
+                                                <td>
+                                                    <div>
+                                                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                                            <a href="/Aboutus/Delete/@item.Id"><i class="material-icons">close</i></a>
+                                                        </button>
+                                                    </div>
+                                                </td>
+
+                                            </tr>
+
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

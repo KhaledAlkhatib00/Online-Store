@@ -1,0 +1,87 @@
+﻿@model IEnumerable<TUITY_STORE.Models.OrdersTable>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Users";
+    Layout = "_DashbordLayout";
+}
+<h1>Orders</h1>
+<div class="col-lg-12 col-md-12">
+    <div class="card">
+        <div class="card-header card-header-tabs card-header-primary">
+            <div class="nav-tabs-navigation">
+                <div class="nav-tabs-wrapper">
+                    <span class="nav-tabs-title">Orders</span>
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="tab-content">
+                <div class="tab-pane active" id="profile">
+                    <table class="table">
+                        <thead class="text-warning">
+                            <tr>
+                                <th>Order Id</th>
+                                <th>Customer Id</th>
+                                <th>Customer Name</th>
+                                <th>Product Name</th>
+                                <th>Price</th>
+                                <th>Quantity</th>
+                                <th>Total Price</th>
+                                <th>Category Name</th>
+                                <th>Image</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+
+                             <tr>
+                                <td>@item.order.Id</td>
+                                <td>@item.userLogin.Id</td>
+                                <td>@item.userLogin.UserName</td>
+                                <td>@item.productt.Namee</td>
+                                <td>@item.productt.Price</td>
+                                <td>@item.orderProduct.Quantity</td>
+                                <td>@(item.orderProduct.Quantity*item.productt.Price)</td>
+                                <td>@item.productCategory.CategoryName</td>
+                                <td>
+                                    <img src=@Url.Content("~/Image/"+item.productt.Imagepath) alt="Alterenate Text" width="100" height="100" />
+                                </td>
+                                <td>
+
+                                    <form asp-action="SendEmail">
+                                            <input hidden type="text" name="To" id="To" value="@item.order.User.Email" />                                      
+                                            <input hidden type="text" name="Body" id="Body" value="@item.productt.Namee  @item.productt.Price $$" />
+                                            <input type="submit" value="Send Invoice" class="btn btn-primary" style="width:130px; height:30px;" />
+                                      
+                                    </form>
+
+
+                                </td>
+                             </tr>
+                            }
+
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            <td>
+                                Total Quantity: @ViewBag.TotalQuantity
+                            </td>
+                            <td>
+                                Total Price : @ViewBag.TotalPrice
+                            </td>
+                            <td>Profits : @ViewBag.Profits</td>
+                            <td>Losses : @ViewBag.losses</td>
+                        </tr>
+                    </tfoot>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

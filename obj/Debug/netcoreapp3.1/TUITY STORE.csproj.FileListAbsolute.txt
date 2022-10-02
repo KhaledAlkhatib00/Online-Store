@@ -1,0 +1,297 @@
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\TUITY STORE.exe
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\TUITY STORE.deps.json
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\TUITY STORE.runtimeconfig.json
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\TUITY STORE.runtimeconfig.dev.json
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\TUITY STORE.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\TUITY STORE.pdb
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\TUITY STORE.Views.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\TUITY STORE.Views.pdb
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Win32.Registry.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Oracle.EntityFrameworkCore.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Oracle.ManagedDataAccess.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.ComponentModel.Annotations.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.DirectoryServices.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.DirectoryServices.Protocols.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.IO.FileSystem.AccessControl.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Security.AccessControl.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Security.Permissions.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Security.Principal.Windows.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Text.Encodings.Web.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Text.Json.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Windows.Extensions.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\Microsoft.Win32.Registry.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\linux\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\osx\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.DirectoryServices.Protocols.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.IO.FileSystem.AccessControl.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Security.AccessControl.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.GeneratedMSBuildEditorConfig.editorconfig
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.AssemblyInfoInputs.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.AssemblyInfo.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.csproj.CoreCompileInputs.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.MvcApplicationPartsAssemblyInfo.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.RazorAssemblyInfo.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.RazorAssemblyInfo.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\staticwebassets\TUITY STORE.StaticWebAssets.Manifest.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\staticwebassets\TUITY STORE.StaticWebAssets.xml
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\scopedcss\bundle\TUITY STORE.styles.css
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.TagHelpers.input.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.TagHelpers.output.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.RazorCoreGenerate.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.RazorTargetAssemblyInfo.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.RazorTargetAssemblyInfo.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.Views.pdb
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.csproj.CopyComplete
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.pdb
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.genruntimeconfig.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Razor.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Core.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\dotnet-aspnet-codegenerator-design.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Aboutus\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Aboutus\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Aboutus\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Aboutus\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Aboutus\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\BankAccounts\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\BankAccounts\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\BankAccounts\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\BankAccounts\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\BankAccounts\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Categoryies\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Categoryies\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Categoryies\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Categoryies\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Contactus\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Contactus\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Contactus\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Contactus\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Contactus\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Logins\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Logins\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Logins\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Logins\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Logins\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\OrderProducts\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\OrderProducts\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\OrderProducts\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\OrderProducts\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\OrderProducts\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Orderrs\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Orderrs\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Orderrs\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Orderrs\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Orderrs\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\ProductCategories\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\ProductCategories\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\ProductCategories\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\ProductCategories\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\ProductCategories\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Productts\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Productts\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Productts\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Productts\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Productts\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Storees\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Storees\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Storees\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Storees\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Storees\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\StorProducts\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\StorProducts\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\StorProducts\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\StorProducts\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\StorProducts\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Testmonials\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Testmonials\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Testmonials\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Testmonials\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Testmonials\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Userrs\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Userrs\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Userrs\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Userrs\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Userrs\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_HomeTemplet.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\LoginRegister\Register.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginRegisterLayout.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\LoginRegister\Login.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_DashbordLayout.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\Admin.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\UserProfile.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\Users.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\Stores.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\Categorys.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Categoryies\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\Products.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\OrdersTable.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\Report.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\UserHome.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_UserDashbord.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\Stores.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\AdidasStore.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Rolees\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Rolees\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Rolees\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Rolees\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Rolees\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\NikeStore.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\AlkhatibStore.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\IrbedStore.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\Account.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\HomeImages\Create.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\HomeImages\Delete.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\HomeImages\Details.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\HomeImages\Edit.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\HomeImages\Index.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_AboutDashbord.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\UserContact.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ContactLayout.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\Massegies.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\Home.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\About.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\Testemonial.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\TestonialMasseges.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\TUITY STORE.csproj.AssemblyReference.cache
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\Cart.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_CartLayout.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\VerifyBankAccount.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\CheekOut.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\AdminDashbord\AddProductToStore.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\Gmail\SendMail.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\ACCESSORY.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\BABY.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\DRESS.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\HOMECLOTHES.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\PERFUME.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\SHOES.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\SPORT.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\SUITS.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\AddToCart.cshtml.g.cs
+D:\Tahaluf First Project (Store)\TUITY STORE\obj\Debug\netcoreapp3.1\Razor\Views\UserDashbord\SendInvoice.cshtml.g.cs

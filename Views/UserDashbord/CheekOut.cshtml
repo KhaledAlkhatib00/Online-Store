@@ -1,0 +1,122 @@
+﻿@model Tuple<IEnumerable<TUITY_STORE.Models.UserOrders>, IEnumerable<TUITY_STORE.Models.Pay>>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Users";
+    Layout = "_CartLayout";
+}
+
+<style>
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        width: 100%;
+        background-color: #4CAF50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+</style>
+
+
+
+
+
+<div class="container">
+    <table id="cart" class="table table-hover table-condensed">
+        <thead>
+            <tr>
+                <th style="width:50%">Product</th>
+                <th style="width:10%">Price</th>
+                <th style="width:8%">Quantity</th>
+                <th style="width:22%" class="text-center">Subtotal</th>
+                <th style="width:10%"></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.Item1)
+            {
+                <tr>
+                    <td data-th="Product">
+                        <div class="row">
+                            <div class="col-sm-2 hidden-xs"><img src=@Url.Content("~/Image/" + item.productt.Imagepath) alt="Alterenate Text" width="100" height="100" /></div>
+                            <div class="col-sm-10">
+                                <h4 class="nomargin">@item.productt.Namee</h4>
+                            </div>
+                        </div>
+                    </td>
+                    <td data-th="Price">@item.productt.Price</td>
+                    <td data-th="Quantity">
+                        @item.orderProduct.Quantity
+                    </td>
+                    <td data-th="Subtotal" class="text-center">
+                        @(item.orderProduct.Quantity * item.productt.Price)
+                    </td>
+                    <td class="actions" data-th="">
+                        <a href="/OrderProducts/Delete/@item.orderProduct.Id"><button class="btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button></a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+        <br />
+        <br />
+        <tfoot>
+
+            <tr><td><h2 style="text-align:center;">Payment Section</h2></td></tr>
+            <tr>
+            </tr>
+            <tr>
+
+                <td>
+                    @foreach (var item in Model.Item2)
+                    {
+
+                        <div>
+                            <form action="">
+                                <label for="accNumber">Account Number</label>
+                                <input type="text" id="accNumber" value="@item.bankAccount.AccountNumber" name="firstname" placeholder="Account Number..">
+
+                                <label for="cvc">CVC</label>
+                                <input type="text" id="cvc" value="@item.bankAccount.AccountSnn" name="lastname" placeholder="CVC ..">
+
+
+                                <a onclick="myfunction()" href="/UserDashbord/Cart" class="btn" style="background-color: limegreen;"><span style="color:black;">Pay</span></a>
+
+                            </form>
+                        </div>
+                    }
+                </td>
+
+                <td>
+                    Total Price :  @ViewBag.TotalPrice
+                </td>
+                <br />
+                <td><a href="/UserDashbord/VerifyBankAccount" class="btn" style="background-color:limegreen;"><span style="color:black;">Verify Your Bank Account</span></a></td>
+
+
+            </tr>
+        </tfoot>
+    </table>
+</div>
+<script>
+    function myfunction() {
+        alert("Payment completed successfully");
+    }
+</script>

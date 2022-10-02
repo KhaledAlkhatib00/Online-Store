@@ -1,0 +1,71 @@
+﻿@model IEnumerable<TUITY_STORE.Models.UsersInfoJoin>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    ViewData["Title"] = "Users";
+    Layout = "_DashbordLayout";
+}
+<div class="col-lg-10 col-md-12 offset-md-1">
+    <div class="card">
+        <div class="card-header card-header-tabs card-header-primary">
+            <div class="nav-tabs-navigation">
+                <div class="nav-tabs-wrapper">
+                    <span class="nav-tabs-title">Users</span>
+                    <button type="button" rel="tooltip" title="add" class="btn">
+                        <a href="/Userrs/Create"><i class="material-icons">add</i></a>
+                    </button>
+
+                </div>
+            </div>
+        </div>
+        <div class="card-body">
+            <div class="tab-content">
+                <div class="tab-pane active" id="profile">
+                    <table class="table">
+                        <thead class="text-warning">
+                            <tr>
+                                <th>ID</th>
+                                <th>First Name</th>
+                                <th>Last Name</th>
+                                <th>User Name</th>
+                                <th>Image</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+
+                             <tr>
+                                <td>@item.user.Id</td>
+                                <td>@item.user.Fname</td>
+                                <td>@item.user.Lname</td>
+                                <td>@item.login.UserName</td>
+                                <td>
+                                    <img src=@Url.Content("~/Image/"+item.user.Imagepath) alt="Alterenate Text" width="100" height="100" />
+                                </td>
+                                <td>
+                                    <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                        <a href="/Userrs/Edit/@item.login.Id"><i class="material-icons">edit</i></a>
+                                    </button>
+                                </td>
+                                <td>
+                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                        <a href="/Userrs/Delete/@item.login.Id"><i class="material-icons">close</i></a>
+                                    </button>
+
+                                </td>
+                                
+                              
+                             </tr>
+                            }
+
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

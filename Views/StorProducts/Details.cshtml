@@ -1,0 +1,38 @@
+﻿@model TUITY_STORE.Models.StorProduct
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "_DashbordLayout";
+}
+<div style="margin-left:50px;">
+    <h1>Details</h1>
+
+    <div>
+        <h4>StorProduct</h4>
+        <hr />
+        <dl class="row">
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.StoreName)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.StoreName)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Product)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Product.Id)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Store)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Store.Id)
+            </dd>
+        </dl>
+    </div>
+    <div>
+        <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
+        <a href="/AdminDashbord/AddProductToStore">Back to Products</a>
+    </div>
+    </div>

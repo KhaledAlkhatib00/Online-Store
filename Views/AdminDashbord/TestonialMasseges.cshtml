@@ -1,0 +1,77 @@
+﻿@model IEnumerable<TUITY_STORE.Models.Test_emonial>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "_DashbordLayout";
+}
+<div class="content" style="margin-left:100px;">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-10 col-md-10">
+                <div class="card">
+                    <div class="card-header card-header-tabs card-header-primary">
+                        <div class="nav-tabs-navigation">
+                            <div class="nav-tabs-wrapper">
+                                <span class="nav-tabs-title">Testmonial Message</span>
+                                
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="profile">
+                                <table class="table">
+                                    <thead class="text-warning">
+                                        <tr>
+                                            <th>User ID</th>
+                                            <th>User Name</th>
+                                            <th>Testemonial ID</th>
+                                            <th>Testemonial Message</th>
+                                            <th>User Image</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var item in Model)
+                                        {
+                                        <tr>
+                                            <td>@item.user.Id</td>
+                                            <td>@item.user.Fname</td>
+                                            <td>@item.testmonial.Id</td>
+                                            <td>@item.testmonial.UserMassege</td>
+                                            <td>
+                                                <img src=@Url.Content("~/Image/"+item.user.Imagepath) alt="Alterenate Text" width="100" height="100" />
+                                            </td>
+                                            <td>
+                                                <button type="button" rel="tooltip" title="Edit Task" class="btn btn-primary btn-link btn-sm">
+                                                    <a href="/Testmonials/Edit/@item.testmonial.Id"><i class="material-icons">edit</i></a>
+                                                </button>
+                                            </td>
+                                            <td>
+                                                <div>
+                                                    <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-link btn-sm">
+                                                        <a href="/Testmonials/Delete/@item.testmonial.Id"><i class="material-icons">close</i></a>
+                                                    </button>
+                                                </div>
+                                            </td>
+
+                                        </tr>
+
+                                        }
+                                    </tbody>
+                                </table>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+

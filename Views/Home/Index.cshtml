@@ -1,0 +1,687 @@
+﻿@model Tuple<IEnumerable<TUITY_STORE.Models.UserHomeTable>, IEnumerable<TUITY_STORE.Models.HomeImage>, IEnumerable<TUITY_STORE.Models.Test_emonial>>
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = "_HomeTemplet";
+}
+
+<h1>
+</h1>
+<div class="text-center">
+
+    <!-- Welcome -->
+    <section class="section-welcome bg1-pattern p-t-120 p-b-105">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 p-t-45 p-b-30">
+                    <div class="wrap-text-welcome t-center">
+                        <span class="tit2 t-center">
+                            TUITY
+                        </span>
+
+                        <h3 class="tit3 t-center m-b-35 m-t-5">
+                            Welcome
+                        </h3>
+
+                        <p class="t-center m-b-22 size3 m-l-r-auto">
+                            Buying all kinds of clothes of different sizes and colors
+                        </p>
+
+                        <a href="about.html" class="txt4">
+                            Our Story
+                            <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 p-b-30">
+                    <div class="wrap-pic-welcome size2 bo-rad-10 hov-img-zoom m-l-r-auto">
+                        <img src="~/TASSEST2/images/Image1.jpg" alt="IMG-OUR">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Intro -->
+    <section class="section-intro">
+        <h1>@ViewBag.ImageWelcome</h1>
+        @foreach (var item in Model.Item2)
+        {
+            if (item.Id==2)
+            {
+                <div class="header-intro parallax100 t-center p-t-135 p-b-158" style="background-image: url(@Url.Content("~/Image/"+item.ImagePath))">
+                    <span class="tit2 p-l-15 p-r-15">
+                        Discover
+                    </span>
+
+                    <h3 class="tit4 t-center p-l-15 p-r-15 p-t-3" style="color:black">
+                        TUITY PLEASE
+                    </h3>
+                </div>
+            }
+        }
+
+
+        <div class="content-intro bg-white p-t-77 p-b-133">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 p-t-30">
+                        <!-- Block1 -->
+
+                        <div class="blo1">
+                            <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 22)
+                                    {
+
+                                        <a href="/UserDashbord/PERFUME">
+                                            <img src=@Url.Content("~/Image/"+item.ImagePath) />
+                                        </a>
+
+                                    }
+                                }
+                            </div>
+
+                            <div class="wrap-text-blo1 p-t-35">
+                                <a href="/UserDashbord/PERFUME">
+                                    <h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                        Perfume
+                                    </h4>
+                                </a>
+
+                                <p class="m-b-20">
+                                    Find the right clothes for your children
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 p-t-30">
+                        <!-- Block2 -->
+                        <div class="blo1">
+                            <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 23)
+                                    {
+
+                                        <a href="/UserDashbord/DRESS">
+                                            <img src=@Url.Content("~/Image/"+item.ImagePath) />
+                                        </a>
+
+                                    }
+                                }
+                            </div>
+
+                            <div class="wrap-text-blo1 p-t-35">
+                                <a href="/UserDashbord/DRESS">
+                                    <h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                        Clothing
+                                    </h4>
+                                </a>
+
+                                <p class="m-b-20">
+                                    Find the newest style for you self
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 p-t-30">
+                        <!-- Block1 -->
+                        <div class="blo1">
+                            <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom">
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 21)
+                                    {
+
+                                        <a href="/UserDashbord/ACCESSORY">
+                                            <img src=@Url.Content("~/Image/"+item.ImagePath) />
+                                        </a>
+
+                                    }
+                                }
+                            </div>
+
+                            <div class="wrap-text-blo1 p-t-35">
+                                <a href="/UserDashbord/ACCESSORY">
+                                    <h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                        Accessory
+                                    </h4>
+                                </a>
+
+                                <p class="m-b-20">
+                                    Find the newest style for you self
+                                </p>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our menu -->
+    <section class="section-ourmenu bg2-pattern p-t-115 p-b-120">
+        <div class="container">
+            <div class="title-section-ourmenu t-center m-b-22">
+                <span class="tit2 t-center">
+                    Discover
+                </span>
+
+                <h3 class="tit5 t-center m-t-2">
+                    Our Category
+                </h3>
+            </div>
+
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <!-- Item our menu -->
+                            <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 6)
+                                    {
+                                        <img src=@Url.Content("~/Image/"+item.ImagePath) />
+
+                                    }
+                                }
+
+                                <!-- Button2 -->
+                                <a href="/UserDashbord/DRESS" class="btn2 flex-c-m txt5 ab-c-m size4">
+                                    DRESS
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-sm-6">
+                            <!-- Item our menu -->
+                            <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 7)
+                                    {
+                                        <img src=@Url.Content("~/Image/"+item.ImagePath) />
+
+                                    }
+                                }
+
+                                <!-- Button2 -->
+                                <a href="/UserDashbord/SUITS" class="btn2 flex-c-m txt5 ab-c-m size5">
+                                    SUITS
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <!-- Item our menu -->
+                            <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 8)
+                                    {
+                                        <img src=@Url.Content("~/Image/"+item.ImagePath) />
+
+                                    }
+                                }
+
+                                <!-- Button2 -->
+                                <a href="/UserDashbord/HOMECLOTHES" class="btn2 flex-c-m txt5 ab-c-m size6">
+                                    HOME CLOTHES
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-12">
+                            <!-- Item our menu -->
+                            <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 9)
+                                    {
+                                        <img src=@Url.Content("~/Image/"+item.ImagePath) />
+
+                                    }
+                                }
+
+                                <!-- Button2 -->
+                                <a href="/UserDashbord/SHOES" class="btn2 flex-c-m txt5 ab-c-m size7">
+                                    SHOES
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <!-- Item our menu -->
+                            <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 10)
+                                    {
+                                        <img src=@Url.Content("~/Image/"+item.ImagePath) />
+
+                                    }
+                                }
+
+                                <!-- Button2 -->
+                                <a href="/UserDashbord/BABY" class="btn2 flex-c-m txt5 ab-c-m size8">
+                                    BABY
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <!-- Item our menu -->
+                            <div class="item-ourmenu bo-rad-10 hov-img-zoom pos-relative m-t-30">
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 11)
+                                    {
+                                        <img src=@Url.Content("~/Image/"+item.ImagePath) />
+
+                                    }
+                                }
+
+                                <!-- Button2 -->
+                                <a href="/UserDashbord/SPORT" class="btn2 flex-c-m txt5 ab-c-m size8">
+                                    SPORT
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Event -->
+    <section class="section-event">
+        <div class="wrap-slick2">
+            <div class="slick2">
+
+                <div class="item-slick2 item1-slick2" style="background-image: url(/TASSEST2/images/bg-event-01.jpg);">
+                    <div class="wrap-content-slide2 p-t-115 p-b-208">
+                        <div class="container">
+                            <!-- - -->
+                            <div class="title-event t-center m-b-52">
+                                <span class="tit2 p-l-15 p-r-15">
+                                    Upcomming
+                                </span>
+
+                                <h3 class="tit6 t-center p-l-15 p-r-15 p-t-3">
+                                    Events
+                                </h3>
+                            </div>
+
+                            <!-- Block2 -->
+                            <div class="blo2 flex-w flex-str flex-col-c-m-lg animated visible-false" data-appear="zoomIn">
+                                <!-- Pic block2 -->
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 14)
+                                    {
+                                        <a href="#" class="wrap-pic-blo2 bg1-blo2" style="background-image: url(@Url.Content("~/Image/"+item.ImagePath));">
+                                            <div class="time-event size10 txt6 effect1">
+                                                <span class="txt-effect1 flex-c-m t-center">
+                                                    08:00 PM Tuesday - 21 November 2018
+                                                </span>
+                                            </div>
+                                        </a>
+
+                                    }
+                                }
+
+
+
+                                <!-- Text block2 -->
+                                <div class="wrap-text-blo2 flex-col-c-m p-l-40 p-r-40 p-t-45 p-b-30">
+                                    <h4 class="tit7 t-center m-b-10">
+                                        Black Friday
+                                    </h4>
+
+                                    <p class="t-center">
+                                        colloquial term for the Friday after Thanksgiving
+                                    </p>
+
+                                    <div class="flex-sa-m flex-w w-full m-t-40">
+                                        <div class="size11 flex-col-c-m">
+                                            <span class="dis-block t-center txt7 m-b-2 days">
+                                                25
+                                            </span>
+
+                                            <span class="dis-block t-center txt8">
+                                                Days
+                                            </span>
+                                        </div>
+
+                                        <div class="size11 flex-col-c-m">
+                                            <span class="dis-block t-center txt7 m-b-2 hours">
+                                                12
+                                            </span>
+
+                                            <span class="dis-block t-center txt8">
+                                                Hours
+                                            </span>
+                                        </div>
+
+                                        <div class="size11 flex-col-c-m">
+                                            <span class="dis-block t-center txt7 m-b-2 minutes">
+                                                59
+                                            </span>
+
+                                            <span class="dis-block t-center txt8">
+                                                Minutes
+                                            </span>
+                                        </div>
+
+                                        <div class="size11 flex-col-c-m">
+                                            <span class="dis-block t-center txt7 m-b-2 seconds">
+                                                56
+                                            </span>
+
+                                            <span class="dis-block t-center txt8">
+                                                Seconds
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="txt4 m-t-40">
+                                        View Details
+                                        <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-slick2 item2-slick2" style="background-image: url(/TASSEST2/images/backBlackFriday.jpg);">
+                    <div class="wrap-content-slide2 p-t-115 p-b-208">
+                        <div class="container">
+                            <!-- - -->
+                            <div class="title-event t-center m-b-52">
+                                <span class="tit2 p-l-15 p-r-15">
+                                    Upcomming
+                                </span>
+
+                                <h3 class="tit6 t-center p-l-15 p-r-15 p-t-3">
+                                    Events
+                                </h3>
+                            </div>
+
+                            <!-- Block2 -->
+                            <div class="blo2 flex-w flex-str flex-col-c-m-lg animated visible-false" data-appear="fadeInDown">
+                                <!-- Pic block2 -->
+                                @foreach (var item in Model.Item2)
+                                {
+                                    if (item.Id == 13)
+                                    {
+                                        <a href="#" class="wrap-pic-blo2 bg1-blo2" style="background-image: url(@Url.Content("~/Image/"+item.ImagePath));">
+                                            <div class="time-event size10 txt6 effect1">
+                                                <span class="txt-effect1 flex-c-m t-center">
+                                                    08:00 PM Tuesday - 21 November 2018
+                                                </span>
+                                            </div>
+                                        </a>
+
+                                    }
+                                }
+
+                                <!-- Text block2 -->
+                                <div class="wrap-text-blo2 flex-col-c-m p-l-40 p-r-40 p-t-45 p-b-30">
+                                    <h4 class="tit7 t-center m-b-10">
+                                        THE NEW 2023
+                                    </h4>
+
+                                    <p class="t-center">
+                                        HAPPY NEW YEAR....
+                                    </p>
+
+                                    <div class="flex-sa-m flex-w w-full m-t-40">
+                                        <div class="size11 flex-col-c-m">
+                                            <span class="dis-block t-center txt7 m-b-2 days">
+                                                25
+                                            </span>
+
+                                            <span class="dis-block t-center txt8">
+                                                Days
+                                            </span>
+                                        </div>
+
+                                        <div class="size11 flex-col-c-m">
+                                            <span class="dis-block t-center txt7 m-b-2 hours">
+                                                12
+                                            </span>
+
+                                            <span class="dis-block t-center txt8">
+                                                Hours
+                                            </span>
+                                        </div>
+
+                                        <div class="size11 flex-col-c-m">
+                                            <span class="dis-block t-center txt7 m-b-2 minutes">
+                                                59
+                                            </span>
+
+                                            <span class="dis-block t-center txt8">
+                                                Minutes
+                                            </span>
+                                        </div>
+
+                                        <div class="size11 flex-col-c-m">
+                                            <span class="dis-block t-center txt7 m-b-2 seconds">
+                                                56
+                                            </span>
+
+                                            <span class="dis-block t-center txt8">
+                                                Seconds
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <a href="#" class="txt4 m-t-40">
+                                        View Details
+                                        <i class="fa fa-long-arrow-right m-l-10" aria-hidden="true"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+            <div class="wrap-slick2-dots"></div>
+        </div>
+    </section>
+
+
+
+    <!-- Review -->
+    <section class="section-review p-t-115">
+        <!-- - -->
+        <div class="title-review t-center m-b-2">
+            <span class="tit2 p-l-15 p-r-15">
+                Customers Say
+            </span>
+
+            <h3 class="tit8 t-center p-l-20 p-r-15 p-t-3">
+                Review
+            </h3>
+        </div>
+
+        <!-- - -->
+        <div class="wrap-slick3">
+            <div class="slick3">
+                @foreach (var item in Model.Item3)
+                {
+
+                    <div class="item-slick3 item1-slick3">
+                        <div class="wrap-content-slide3 p-b-50 p-t-50">
+                            <div class="container">
+                                <div class="pic-review size14 bo4 wrap-cir-pic m-l-r-auto animated visible-false" data-appear="zoomIn">
+                                    <img src=@Url.Content("~/Image/"+item.user.Imagepath) />
+                                </div>
+
+                                <div class="content-review m-t-33 animated visible-false" data-appear="fadeInUp">
+                                    <p class="t-center txt12 size15 m-l-r-auto">
+                                        " @item.testmonial.UserMassege "
+                                    </p>
+
+                                    <div class="star-review fs-18 color0 flex-c-m m-t-12">
+                                        <i class="fa fa-star" aria-hidden="true"></i>
+                                        <i class="fa fa-star p-l-1" aria-hidden="true"></i>
+                                        <i class="fa fa-star p-l-1" aria-hidden="true"></i>
+                                        <i class="fa fa-star p-l-1" aria-hidden="true"></i>
+                                        <i class="fa fa-star p-l-1" aria-hidden="true"></i>
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+
+            <div class="wrap-slick3-dots m-t-30"></div>
+        </div>
+    </section>
+    <button class="btn" style="background-color:CaptionText;"><a href="/UserDashbord/Testemonial" style="color:white;">Create Your Review</a></button>
+
+
+
+
+    <!-- Blog -->
+    <section class="section-blog bg-white p-t-115 p-b-123">
+        <div class="container">
+            <div class="title-section-ourmenu t-center m-b-22">
+                <span class="tit2 t-center">
+                    Latest News
+                </span>
+
+                <h3 class="tit5 t-center m-t-2">
+                    The Blog
+                </h3>
+            </div>
+
+            <div class="row">
+
+
+
+                <div class="col-md-4 p-t-30">
+                    <!-- Block1 -->
+                    @foreach (var item in Model.Item1)
+                    {
+                        <div class="blo1">
+                            @if (item.product.Id == 21)
+                            {
+                                <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom pos-relative">
+
+                                    <img src=@Url.Content("~/Image/" + item.product.Imagepath) />
+
+                                    <div class="time-blog">
+                                        21 Dec 2017
+                                    </div>
+                                </div>
+
+                                <div class="wrap-text-blo1 p-t-35">
+                                    <a href="blog-detail.html">
+                                        <h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                            @item.product.Namee
+                                        </h4>
+                                    </a>
+
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+
+
+                <div class="col-md-4 p-t-30">
+                    <!-- Block1 -->
+                    @foreach (var item in Model.Item1)
+                    {
+                        <div class="blo1">
+                            @if (item.product.Id == 64)
+                            {
+                                <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom pos-relative">
+
+                                    <img src=@Url.Content("~/Image/" + item.product.Imagepath) />
+
+                                    <div class="time-blog">
+                                        21 Dec 2017
+                                    </div>
+                                </div>
+
+                                <div class="wrap-text-blo1 p-t-35">
+                                    <a href="blog-detail.html">
+                                        <h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                            @item.product.Namee
+                                        </h4>
+                                    </a>
+
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+
+
+                <div class="col-md-4 p-t-30">
+                    <!-- Block1 -->
+                    @foreach (var item in Model.Item1)
+                    {
+                        <div class="blo1">
+                            @if (item.product.Id == 66)
+                            {
+                                <div class="wrap-pic-blo1 bo-rad-10 hov-img-zoom pos-relative">
+
+                                    <img src=@Url.Content("~/Image/" + item.product.Imagepath) />
+
+                                    <div class="time-blog">
+                                        21 Dec 2017
+                                    </div>
+                                </div>
+
+                                <div class="wrap-text-blo1 p-t-35">
+                                    <a href="blog-detail.html">
+                                        <h4 class="txt5 color0-hov trans-0-4 m-b-13">
+                                            @item.product.Namee
+                                        </h4>
+                                    </a>
+
+                                </div>
+                            }
+                        </div>
+                    }
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+
+</div>
+

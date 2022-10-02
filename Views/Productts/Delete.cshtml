@@ -1,0 +1,52 @@
+﻿@model TUITY_STORE.Models.Productt
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "_DashbordLayout";
+
+}
+<div style="margin-left:50px">
+    <h1>Delete</h1>
+
+    <h3>Are you sure you want to delete this?</h3>
+    <div>
+        <h4>Productt</h4>
+        <hr />
+        <dl class="row">
+
+            <dd class="col-sm-10">
+                <img src=@Url.Content("~/Image/"+Model.Imagepath) alt="Alterenate Text" width="100" height="100" />
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Namee)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Namee)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Sale)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Sale)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.Price)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.Price)
+            </dd>
+            <dt class="col-sm-2">
+                @Html.DisplayNameFor(model => model.ProductCategory)
+            </dt>
+            <dd class="col-sm-10">
+                @Html.DisplayFor(model => model.ProductCategory.Id)
+            </dd>
+        </dl>
+
+        <form asp-action="Delete">
+            <input type="hidden" asp-for="Id" />
+            <input type="submit" value="Delete" class="btn btn-danger" /> |
+            <a href="/AdminDashbord/Products">Back to List</a>
+        </form>
+    </div>
+</div>
